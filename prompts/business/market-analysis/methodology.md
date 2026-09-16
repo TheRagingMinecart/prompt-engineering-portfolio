@@ -39,7 +39,9 @@ The goal was to build a reliable prompt that converts messy notes into clear stu
 ```text
 Make flashcards from these notes: [RAW_CLASS_NOTES]
 
-Version,Result / Score,What Changed
-Naive Baseline,4.0 / 10,"Unstructured prompt; generated generic, low-quality flashcards with no constraints."
-Designed Draft 1,8.0 / 10,"Added R-T-F structure, but the model occasionally hallucinated outside facts."
-Final Designed,9.5 / 10,"Added Zero-Shot CoT (""think step-by-step"") and explicit negative constraints."
+| Version | Result / Score | What Changed |
+|------|-----------------|-------------------------|
+| Naive Baseline | 4.0 / 10 | Unstructured prompt; generated generic, low-quality flashcards with no constraints. |
+| Designed Draft 1 | 8.0 / 10 | Added R-T-F structure, but the model occasionally hallucinated outside facts. |
+| Final Designed | 9.5 / 10 | Added Zero-Shot CoT ("think step-by-step") and explicit negative constraints. |
+
