@@ -36,7 +36,7 @@ The goal was to build a reliable prompt that converts messy notes into clear stu
 ## Testing and Iteration
 
 **Baseline I compared against:**
-```text
+
 Make flashcards from these notes: [RAW_CLASS_NOTES]
 
 | Version | Result / Score | What Changed |
