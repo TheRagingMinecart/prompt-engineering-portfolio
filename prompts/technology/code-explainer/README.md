@@ -1,42 +1,36 @@
----
-
-## 2. Technology Category: Code Explainer & Bug Fixer
-
-### File 1: `prompts/technology/code-explainer/README.md`
-```markdown
 # Code Explainer & Bug Fixer
 
-> Explains tricky code in plain English and helps you spot and fix mistakes.
+> A friendly helper that breaks down confusing code and helps you fix bugs without using big tech words.
 
 ## Overview
 
-This prompt helps you make sense of confusing code snippets. It breaks down what the code is doing step-by-step and shows you how to fix bugs without using confusing computer jargon.
+This prompt acts like a friend who is great at coding sitting down next to you. It reads your code, tells you what it actually does in plain English, and shows you where the bugs are hiding.
 
 **Best for:**
-- Learning what a piece of code actually does
-- Finding bugs or errors in your code
-- Getting cleaner, easier-to-read code
+- Figure out what confusing code actually does
+- Finding and fixing bugs when your code isn't working
+- Learning clean coding habits in a relaxed way
 
-**Structure:** Custom Context/Task/Rules/Output Layout
+**Structure:** Custom Layout (Context, Task, Rules, Output Format)
 **Technique:** Zero-Shot Chain-of-Thought
-**Output:** Simple breakdown with plain-English notes and fixed code
+**Output:** Simple breakdown, plain-English summary, bug list, and fixed code
 
 ---
 
 ## Quick Start
 
 1. Open [`prompt.md`](./prompt.md) and copy the text.
-2. Fill in the blanks:
+2. Fill in the placeholders:
    - `[PROGRAMMING_LANGUAGE]`: Python, JavaScript, HTML, etc.
-   - `[CODE_SNIPPET]`: Paste the code you want to check.
-   - `[TARGET_AUDIENCE]`: Total beginner, student, etc.
+   - `[CODE_SNIPPET]`: Paste the confusing code here.
+   - `[TARGET_AUDIENCE]`: Total beginner, high school student, etc.
 3. Paste it into your AI tool and hit run.
 
 ---
 
 ## Technical Details
 
-- **Structure:** Custom Context / Task / Rules / Output
-- **Technique:** Zero-Shot Chain-of-Thought ("Think through this step-by-step")
+- **Structure:** Custom Layout (Context, Task, Rules, Output Format)
+- **Technique:** Zero-Shot Chain-of-Thought ("Think step-by-step")
 - **Best models:** GPT-4o, Claude 3.5 Sonnet, Gemini
 - **Placeholders:** 3
