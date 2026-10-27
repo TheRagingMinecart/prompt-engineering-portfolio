@@ -18,3 +18,8 @@
 This designed prompt is well-structured and uses clear labeled components along with a worked example (few-shot prompting) to guide the output format and tone. It provides ideal guidance for a coaching/tutoring scenario by ensuring the model gives structured, actionable feedback rather than a generic response.
 
 FINAL SCORE: 100
+
+## Evaluator Feedback:
+- Clear, labeled framework layout (`[CONTEXT]`, `[ACTION]`, `[EXAMPLE]`, `[RESULT]`).
+- Few-shot example locks in an actionable STAR-method feedback format.
+- Clear input placeholders prevent the AI from giving generic, non-specific advice.
