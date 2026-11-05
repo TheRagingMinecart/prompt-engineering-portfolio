@@ -1,20 +1,24 @@
 # Naive Baseline Output
 
 ## Prompt Used
-Make flashcards from these notes: [RAW_CLASS_NOTES]
+Your a manager at a [JOB_TITLE] jobat at [EXPERIENCE_LEVEL] level. what is good and bad and missing
 
-## Evaluator Score: 5/10
+## Evaluator Score: 1.5/10
 
 ## Output Generated:
-Solid progress! Keep up the good work.
--Strengths
-Prompting Techniques & Framework Selection: You accurately identified techniques like zero-shot chain-of-thought and correctly selected analytical frameworks like F-R-A-M-E for structured tasks.
-Evaluator Optimization & Design Rationale: You demonstrated a strong understanding of how step-by-step rubric breakdowns reduce score variance, as well as the purpose of comparing designed prompts against naive baselines.
--Focus areas
-Evaluator Calibration & Reliability Metrics: Review evaluator reliability thresholds—such as classifying wide score spreads (>10 points) as consistency failures—and remember that control tasks must stay constant to isolate prompt quality rather than token usage.
-Framework Components & Output Requirements Criteria: Revisit specific framework roles, such as how the 'Example' block in C-A-R-E turns a zero-shot prompt into a few-shot prompt, and make sure to distinguish Output Requirements (format, length, tone/style) from Context inpu
+
+* **Clarity & Specificity:** 15/30 - The core request asks what is good, bad, and missing from a candidate answer, but no candidate response draft was actually provided.
+* **Structure & Framework Use:** 0/30 - The prompt contains unparsed template syntax with typos (`your a manager at a [JOB_TITLE] jobat at [EXPERIENCE_LEVEL] level`) and lacks a structured framework layout.
+* **Context & Inputs:** 0/20 - Essential placeholders (`[JOB_TITLE]`, `[EXPERIENCE_LEVEL]`) were left unfilled, and no candidate text was supplied for review.
+* **Output Requirements:** 0/20 - The prompt does not define any constraints for formatting, response length, or feedback style.
+
+## Comparison & Feedback
+
+This is an incomplete draft that fails to provide the candidate's answer or fill in the required job and level placeholders. To turn this into a high-scoring prompt, adopt a structured framework (like C-A-R-E or R-T-F), fill in specific role details, paste the candidate's response text, and request a structured feedback breakdown with a polished rewrite example.
+
+FINAL SCORE: 15
 
 ## Evaluator Feedback:
-- Lacks target audience context.
-- Output format is inconsistent and lacks depth.
-- High risk of picking trivial details instead of core concepts.
+- Unstructured prompt with unparsed input placeholders.
+- Missing candidate answer context completely.
+- Lacks rules for tone, feedback depth, and output formatting.
