@@ -1,20 +1,22 @@
 # Naive Baseline Output
 
 ## Prompt Used
-Your a manager at a [JOB_TITLE] jobat at [EXPERIENCE_LEVEL] level. what is good and bad and missing
+Your a manager at a [JOB_TITLE] jobat at [EXPERIENCE_LEVEL] level. what is good and bad and missing in my draft?
 
 ## Evaluator Score: 1.5/10
 
 ## Output Generated:
 
-* **Clarity & Specificity:** 15/30 - The core request asks what is good, bad, and missing from a candidate answer, but no candidate response draft was actually provided.
-* **Structure & Framework Use:** 0/30 - The prompt contains unparsed template syntax with typos (`your a manager at a [JOB_TITLE] jobat at [EXPERIENCE_LEVEL] level`) and lacks a structured framework layout.
-* **Context & Inputs:** 0/20 - Essential placeholders (`[JOB_TITLE]`, `[EXPERIENCE_LEVEL]`) were left unfilled, and no candidate text was supplied for review.
-* **Output Requirements:** 0/20 - The prompt does not define any constraints for formatting, response length, or feedback style.
+## Rubric Breakdown
+
+* **Clarity & Specificity:** 15/30 - The user asks what is good, bad, and missing, but no actual draft or candidate answer text was provided.
+* **Structure & Framework Use:** 0/30 - The prompt contains unfilled template syntax with typos ("your a manager at a [JOB_TITLE] jobat at [EXPERIENCE_LEVEL] level") and lacks any deliberate framework layout.
+* **Context & Inputs:** 0/20 - Essential placeholders (`[JOB_TITLE]`, `[EXPERIENCE_LEVEL]`) were left blank, and the underlying text/draft to be evaluated is missing entirely.
+* **Output Requirements:** 0/20 - The prompt does not define any constraints regarding length, tone, structure, or formatting style for the output.
 
 ## Comparison & Feedback
 
-This is an incomplete draft that fails to provide the candidate's answer or fill in the required job and level placeholders. To turn this into a high-scoring prompt, adopt a structured framework (like C-A-R-E or R-T-F), fill in specific role details, paste the candidate's response text, and request a structured feedback breakdown with a polished rewrite example.
+This prompt is incomplete because it leaves placeholders unfilled and fails to provide the candidate draft needed to perform the analysis. Additionally, it lacks a structured framework, context, and clear output constraints. To fix this, fill in the specific job title and experience level, paste the text of the candidate draft, and structure the prompt using a framework (such as C-A-R-E or R-T-F) with explicit output rules.
 
 FINAL SCORE: 15
 
